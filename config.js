@@ -1,10 +1,4 @@
-/**
- * ╔══════════════════════════════════════════════════════════╗
- * ║         JD Development & Designs — Product Config        ║
- * ║                                                          ║
- * ║  Edit this file to add, remove, or update products.      ║
- * ║  No other file needs to be touched for product changes.  ║
- * ╚══════════════════════════════════════════════════════════╝
+/*
  *
  * FIELD REFERENCE:
  *   id          — Unique identifier (no spaces, use hyphens). Used for download tracking.
