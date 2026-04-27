@@ -36,9 +36,9 @@ const PRODUCTS = [
     type:        "free",
     tag:         "Script",
     version:     "1.0",
-    author: "JDRM",
+    author:      "JD Development & Designs",
     downloadUrl: "https://drive.google.com/drive/folders/17_HLSJvH4Qa-EI0KF6jDA9ezB6ejgQ52?usp=sharing",
-    description: "Nothing to advanced a simple loading screen with some image loop transitions.",
-    image:       "./Assets/ProductPhotos/jd-loading-screen-pi.png"
+    description: "A simple loading screen for your FiveM server with smooth image loop transitions.",
+    image:       "https://cdn.discordapp.com/attachments/1498246763893751878/1498247097353240686/image.png?ex=69f076d8&is=69ef2558&hm=90e0779b427dc638589b6f9294797b613571acb36016d373e05c79bd2b4ca2cf&"
   }
 ];
