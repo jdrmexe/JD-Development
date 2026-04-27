@@ -1,3 +1,7 @@
+/* ═══════════════════════════════════════════════════════
+   JD Development & Designs — script.js
+   Depends on: config.js (must be loaded before this file)
+   ═══════════════════════════════════════════════════════ */
 
 /* ═══════════════════════════════════════
    DOWNLOAD TRACKING (localStorage)
@@ -96,7 +100,9 @@
   
     grid.innerHTML = products.map(p => {
       const dlCount = getDownloads(p.id);
-      const priceLabel = p.price === 0 ? '<span style="color:#38c97b;font-weight:700">Free</span>' : `£${p.price.toFixed(2)}`;
+      const priceLabel = p.price === 0
+        ? '<span style="color:#38c97b;font-weight:700">Free</span>'
+        : `£${p.price.toFixed(2)}`;
       const imageBlock = p.image
         ? `<img class="card-image" src="${p.image}" alt="${p.name}" loading="lazy"/>`
         : `<div class="card-placeholder">
@@ -121,6 +127,9 @@
     }).join('');
   }
   
+  /* ═══════════════════════════════════════
+     FILTERS
+     ═══════════════════════════════════════ */
   function applyFilters() {
     const avail = document.getElementById('filter-avail').value;
     const price = document.getElementById('filter-price').value;
@@ -140,6 +149,9 @@
     renderGrid(list);
   }
   
+  /* ═══════════════════════════════════════
+     MOBILE NAV
+     ═══════════════════════════════════════ */
   function toggleMobileNav() {
     document.getElementById('mobile-nav').classList.toggle('open');
   }
