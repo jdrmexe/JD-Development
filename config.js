@@ -1,11 +1,4 @@
-/**
- * ╔══════════════════════════════════════════════════════════╗
- * ║         JD Development & Designs — Product Config        ║
- * ║                                                          ║
- * ║  Edit this file to add, remove, or update products.      ║
- * ║  No other file needs to be touched for product changes.  ║
- * ╚══════════════════════════════════════════════════════════╝
- *
+/*
  * FIELD REFERENCE:
  *   id          — Unique identifier (no spaces, use hyphens). Used for download tracking.
  *   name        — Display name shown on cards and detail page.
@@ -36,15 +29,16 @@
 
 const PRODUCTS = [
   {
-    id:          "advanced-hud",
-    name:        "Advanced HUD",
+    id:          "loading-screen",
+    name:        "JD Loading Screen",
     price:       0,
-    category:    "UI",
+    category:    "Standalone",
     type:        "free",
     tag:         "Script",
-    version:     "2.1",
-    downloadUrl: "https://drive.google.com/your-link-here",
-    description: "A fully customizable, performance-friendly HUD system for FiveM. Includes health, armor, hunger, thirst, stress bars, and a minimap enhancement. Easy config file included.",
-    image:       null
+    version:     "1.0",
+    author: "JDRM",
+    downloadUrl: "https://drive.google.com/drive/folders/17_HLSJvH4Qa-EI0KF6jDA9ezB6ejgQ52?usp=sharing",
+    description: "Nothing to advanced a simple loading screen with some image loop transitions.",
+    image:       "./Assets/ProductPhotos/jd-loading-screen-pi.png"
   }
 ];
