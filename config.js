@@ -65,6 +65,6 @@ const PRODUCTS = [
     author:      "JD Development & Designs",
     downloadUrl: "https://drive.google.com/drive/folders/18f7sO3F2u_bkpCyWbRPVdTPRBUD7wbmL?usp=drive_link",
     description: "GUIDE: Once installed and configured, you can run the command /whitelisteup and scroll through the list of EUP components to select which one you want to restrict. You can then restrict it via Discord role ID. You will need a Discord bot for this script to function properly, as it checks Discord roles to enable locking.\nAce Perm: command.whitelisteup",
-    image:       null
+    image: ""
   }
 ];
