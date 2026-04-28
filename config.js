@@ -64,7 +64,59 @@ const PRODUCTS = [
     version:     "1.0",
     author:      "JD Development & Designs",
     downloadUrl: "https://drive.google.com/drive/folders/18f7sO3F2u_bkpCyWbRPVdTPRBUD7wbmL?usp=drive_link",
-    description: "GUIDE: Once installed and configured, you can run the command /whitelisteup and scroll through the list of EUP components to select which one you want to restrict. You can then restrict it via Discord role ID. You will need a Discord bot for this script to function properly, as it checks Discord roles to enable locking.\nAce Perm: command.whitelisteup",
+    description: "GUIDE: Once installed and configured, you can run the command /whitelisteup and scroll through the list of EUP components to select which one you want to restrict. You can then restrict it via Discord role ID. You will need a Discord bot for this script to function properly, as it checks Discord roles to enable locking.\nAce Perm: command.whitelisteup,  Dependencies: ox_Lib, Badger_Discord_API, DiscordAcePerm",
+    image: null
+  },
+  {
+    id:          "duty-system",
+    name:        "JD Duty System",
+    price:       0,
+    category:    "Standalone",
+    type:        "free",
+    tag:         "Script",
+    version:     "1.0",
+    author:      "JD Development & Designs",
+    downloadUrl: "https://drive.google.com/drive/folders/1DacJWqiR8oGb6cFVz9ui2YupgE-MwIZf?usp=sharing",
+    description: "Everything is completely editable from the departments, response grades and the commands in the provided config.lua, Base Commands: /duty, /999, /101, /wp [CAD], /clearcall [CAD]",
+    image: null
+  },
+  {
+    id:          "rp-chat-commands",
+    name:        "JD RP Chat Commands",
+    price:       0,
+    category:    "Standalone",
+    type:        "free",
+    tag:         "Script",
+    version:     "1.0",
+    author:      "JD Development & Designs",
+    downloadUrl: "https://drive.google.com/drive/folders/1DacJWqiR8oGb6cFVz9ui2YupgE-MwIZf?usp=sharing",
+    description: "No dependecies, when installed you can do /me and /do, simply drag drop and start via tx-admin and they will work, you can config nearly everything in the provided config.lua like offset and the colours of them.",
+    image: null
+  },
+  {
+    id:          "taser-sound-replace",
+    name:        "JD Taser SFX (Server Side)",
+    price:       0,
+    category:    "Standalone",
+    type:        "free",
+    tag:         "Script",
+    version:     "1.0",
+    author:      "JD Development & Designs",
+    downloadUrl: "https://drive.google.com/drive/folders/1jaFJR7QBQJIbVl331FXrThVILr8cudzv?usp=drive_link",
+    description: "No dependecies, Nothing super advanced just replaces the original taser sfx with the taser 2 demo sound for more immersive roleplay.",
+    image: null
+  },
+    {
+    id:          "mps-epaulette-pack",
+    name:        "Metropolitan Police Epaullets",
+    price:       0,
+    category:    "Standalone",
+    type:        "free",
+    tag:         "Resource",
+    version:     "1.0",
+    author:      "JD Development & Designs",
+    downloadUrl: "https://drive.google.com/drive/folders/1VNWjZx2JYgrPKM70f72klNTg5Pp4pC4F?usp=drive_link",
+    description: "Not a script just some Epaulettes MPS style.",
     image: null
   }
 ];
