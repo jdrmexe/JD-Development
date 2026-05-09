@@ -118,5 +118,18 @@ const PRODUCTS = [
     downloadUrl: "https://drive.google.com/drive/folders/1VNWjZx2JYgrPKM70f72klNTg5Pp4pC4F?usp=drive_link",
     description: "Not a script just some Epaulettes MPS style.",
     image: null
+  },
+    {
+    id:          "jd-backseat",
+    name:        "JD Backseat",
+    price:       0,
+    category:    "Standalone",
+    type:        "free",
+    tag:         "Script",
+    version:     "1.0",
+    author:      "JD Development & Designs",
+    downloadUrl: "https://drive.google.com/drive/folders/1fOTYs0QSKK_gIpvwnjndm1zCu-tVl0eV?usp=sharing",
+    description: "You can now run /backseat to enter a vehicle within 3.0 meter's backseat or press K by deafult",
+    image: null
   }
 ];
